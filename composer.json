@@ -1,0 +1,20 @@
+{
+    "name": "yireo/shopware6-twig-xdebug-breakpoints",
+    "description": "Shopware 6 plugin to add Twig breakpoints for XDebug",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yireo\\TwigXdebugBreakpoints\\": "src/"
+        }
+    },
+    "require": {
+        "ext-xdebug": "*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Yireo\\TwigXdebugBreakpoints\\YireoTwigXdebugBreakpoints",
+        "label": {
+            "en-GB": "Yireo Twig breakpoints for XDebug"
+        }
+    }
+}
